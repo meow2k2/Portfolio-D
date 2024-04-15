@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(21, 22, 22);
+}
+
+nav {
+    border: double rgb(77, 229, 229);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+    color: aqua;
+}
+
+.navmenu {
+    display: flex;
+    list-style: none;
+    column-gap: 40px;
+}
+
+li:hover {
+    background-color: rgba(237, 248, 248, 0.499);
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+
+}
+
+
+.profile {
+    display: flex;
+    padding: 10px;
+    height: 600px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    flex-basis: 50%;
+    font-size: 30px;
+
+}
+
+.skill {
+    display: flex;
+    background-color: white;
+}
+
+.skills {
+    display: flex;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    gap: 24px;
+    list-style: none;
+    justify-content: center;
+    opacity: 0.75;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+.pimage {
+    flex-basis: 50%;
+    display: flex;
+    padding: 1px;
+    width: 300px;
+    height: auto;
+    text-align: right;
+}
+
+.info{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.project{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 120px;
+    color: whitesmoke;
+}
+.projectimg {
+    display: block;
+    width: 600px;
+    height: auto;
+    color: whitesmoke;
+}
+
+.projectdesp {
+    padding: 60px 80px;
+    font-size: 24px;
+    line-height: 36px;
+    color: whitesmoke;
+}
+
+.projectname {
+    font-size: 32px;
+    color: white;
+}
